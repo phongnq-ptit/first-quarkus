@@ -57,26 +57,4 @@ public class GreetingResource {
     }
     return Response.ok(listStudent).build();
   }
-
-//  @GET
-//  @Path("{id}")
-//  @Produces(MediaType.TEXT_PLAIN)
-//  @Consumes(MediaType.TEXT_PLAIN)
-//  public Response getById(@PathParam("id") String id) {
-//
-//    if (map.get(id) == null) {
-//      return Response.ok("Id does not exist!!").build();
-//    }
-//
-//    String student = map.get(id).tostring();
-//
-//    return Response.ok(student).build();
-//  }
-
-//  @POST
-//  @Produces(MediaType.TEXT_PLAIN)
-//  @Consumes(MediaType.TEXT_PLAIN)
-//  public Response createStudent(){
-//
-//  }
 }
